@@ -154,6 +154,6 @@ eclipse-workspace/externals$ mvn install:install-file -Dfile=swt.jar -DgroupId=o
 #### Import the launch configurations for building, running and debugging
 In order to make it easy for you, we stored example launch configurations in the repository.  To import them, go to Menu File->Import and select Run/Debug->Launch configuration.  Import the configurations located in **eclipse-workspace/git/tuxguitar/development.** You can use them as a starting point.  You might need to adjust them to fullfill your folder structure.
 
-If you did not use "git" as name in the [Make a local copy of the forked repository](Make a local copy of the forked repository) step, the `Run/Debug` configuration needs to be adjusted accordingly. The change for the "Run" configuration can be found in the `Arguments` tab of the run configuration, under `Working directory`. The change of the `Maven Build` can be found in the `Main` tab, `Base directory`.
+If you did not use "git" as name in the [Make a local copy of the forked repository](#make-a-local-copy-of-the-forked-repository) step, the `Run/Debug` configuration needs to be adjusted accordingly. The change for the "Run" configuration can be found in the `Arguments` tab of the run configuration, under `Working directory`. The change of the `Maven Build` can be found in the `Main` tab, `Base directory`.
 
 Congratulations.  You can now build, run and debug Tuxguitar SWT.
