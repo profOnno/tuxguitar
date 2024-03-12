@@ -119,7 +119,7 @@ In the next step you will probably only **see the master branch. It has to been 
 
 <img src="images/contribute/eclipse-git-clone-step2.png" width="50%" alt="Git Clone Step 2, select branches">
 
-As a last step you have to choose where on your local drive the repo should be placed. In my case, I created a folder named {#git_folder_name} "git" in my Eclipse workspace.
+As a last step you have to choose where on your local drive the repo should be placed. In my case, I created a folder named [](){:name=`git_folder_name`} "git" in my Eclipse workspace.
 
 <img src="images/contribute/eclipse-git-clone-step3.png" width="50%" alt="Git Clone Step 3, select local folder">
 
@@ -154,7 +154,7 @@ eclipse-workspace/externals$ mvn install:install-file -Dfile=swt.jar -DgroupId=o
 #### Import the launch configurations for building, running and debugging
 In order to make it easy for you, we stored example launch configurations in the repository.  To import them, go to Menu File->Import and select Run/Debug->Launch configuration.  Import the configurations located in **eclipse-workspace/git/tuxguitar/development.** You can use them as a starting point.  You might need to adjust them to fullfill your folder structure.
 
-If you did not use "git" as name in the [Make a local copy of the forked repository](#git_directory_name) step, the `Run/Debug` 
+If you did not use "git" as name in the [Make a local copy of the forked repository](#git_folder_name) step, the `Run/Debug` 
 If you did not use "git" as name in the [Make a local copy of the forked repository](#make-a-local-copy-of-the-forked-repository) step, the `Run/Debug` configuration needs to be adjusted accordingly. The change for the "Run" configuration can be found in the `Arguments` tab of the run configuration, under `Working directory`. The change of the `Maven Build` can be found in the `Main` tab, `Base directory`.
 
 Congratulations.  You can now build, run and debug Tuxguitar SWT.
