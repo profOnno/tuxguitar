@@ -119,7 +119,7 @@ In the next step you will probably only **see the master branch. It has to been 
 
 <img src="images/contribute/eclipse-git-clone-step2.png" width="50%" alt="Git Clone Step 2, select branches">
 
-As a last step you have to choose where on your local drive the repo should be placed. In my case, I created a folder named [](){:name=`git_folder_name`} "git" in my Eclipse workspace.
+As a last step you have to choose where on your local drive the repo should be placed. In my case, I created a folder named []{#git_folder_name} "git" in my Eclipse workspace.
 
 <img src="images/contribute/eclipse-git-clone-step3.png" width="50%" alt="Git Clone Step 3, select local folder">
 
