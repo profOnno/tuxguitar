@@ -103,7 +103,7 @@ Our examples and screenshots here are from Eclipse Version 2023-12.
 - this procedure does not enable to build the *native modules* in Eclipse. Therefore, before sending a pull request it is highly recommended to build the application as defined in [install.md](../INSTALL.md), that is with `-P native-modules` option active.
 - ~~this procedure does not enable to include TuxGuitar plugins in debug configuration~~
 
-To get the enable the plugins in debug configuration make sure to set the `Working directory` in the `Run` configuration, `Arguments` tab to `other`, `${workspace_loc}/git/tuxguitar/desktop/build-scripts/tuxguitar-linux-swt-x86_64/target/tuxguitar-SNAPSHOT-linux-swt-x86_64". To make debugging work, add "gm-settings-SNAPSHOT.jar" and "gm-utils-SNAPSHOT.jar` to the `dependencies` tab of the `Run` configuration.
+To get the enable the plugins in debug configuration make sure to set the `Working directory` in the `Run` configuration, `Arguments` tab to `other`, "${workspace_loc}/git/tuxguitar/desktop/build-scripts/tuxguitar-linux-swt-x86_64/target/tuxguitar-SNAPSHOT-linux-swt-x86_64". To make debugging work, add "gm-settings-SNAPSHOT.jar" and "gm-utils-SNAPSHOT.jar to the `dependencies` tab of the `Run` configuration.
 
 
 #### Fork the origin tuxguitar repository
