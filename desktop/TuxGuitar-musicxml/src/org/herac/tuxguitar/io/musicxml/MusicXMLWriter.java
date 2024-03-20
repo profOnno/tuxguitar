@@ -174,9 +174,10 @@ public class MusicXMLWriter {
 			
 			this.writeBarline(measureNode, measure);
 
-			TGMeasureImpl measureImpl = (TGMeasureImpl) srcMeasure;
+			//TGMeasureImpl measureImpl = (TGMeasureImpl) srcMeasure;
 			
-			MusicXMLMeasureLyric[] measureLyrics = lyricWriter.generateLyricList(measureImpl);
+			///MusicXMLMeasureLyric[] measureLyrics = lyricWriter.generateLyricList(measureImpl);
+			MusicXMLMeasureLyric[] measureLyrics = null;
 			this.writeBeats(measureNode, measure, isTablature, measureLyrics);
 			
 			previous = measure;
