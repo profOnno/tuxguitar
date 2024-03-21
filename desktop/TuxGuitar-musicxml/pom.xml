@@ -13,7 +13,7 @@
 	<name>${project.artifactId}</name>
 
 	<build>
-		<sourceDirectory>src</sourceDirectory>
+		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
 			<resource>
 				<directory>share</directory>
@@ -41,6 +41,17 @@
 			<groupId>${project.groupId}</groupId>
 			<artifactId>tuxguitar-ui-toolkit</artifactId>
 			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.herac.tuxguitar</groupId>
+			<artifactId>tuxguitar-converter</artifactId>
+			<version>9.99-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+    		<groupId>org.junit.jupiter</groupId>
+    		<artifactId>junit-jupiter-engine</artifactId>
+    		<version>5.9.2</version>
+    		<scope>test</scope>
 		</dependency>
 	</dependencies>
 </project>
